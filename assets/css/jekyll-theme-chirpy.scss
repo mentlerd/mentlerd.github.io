@@ -1,0 +1,17 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+#sidebar #avatar {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+
+#sidebar #avatar img:hover {
+    transform: none !important;
+}
